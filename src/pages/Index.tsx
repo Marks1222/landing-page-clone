@@ -7,6 +7,7 @@ const Index = () => {
       <main className="flex-1 flex items-center justify-center py-8 px-4">
         <VideoPlayer />
       </main>
+      <div className="py-16"></div>
       <Footer />
     </div>
   );
