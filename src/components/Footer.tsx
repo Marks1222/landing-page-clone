@@ -6,19 +6,13 @@ export const Footer = () => {
         Facebook: Todas as opiniões e conteúdos expressos neste site são de responsabilidade exclusiva de seus autores e não refletem a opinião ou políticas do Facebook.
       </p>
       <div className="flex justify-center gap-4 text-xs">
-        <a 
-          href="#" 
-          className="text-primary hover:underline transition-colors"
-        >
+        <span className="text-primary">
           Política de Privacidade
-        </a>
+        </span>
         <span>-</span>
-        <a 
-          href="#" 
-          className="text-primary hover:underline transition-colors"
-        >
+        <span className="text-primary">
           Termos e Condições
-        </a>
+        </span>
       </div>
     </footer>
   );
