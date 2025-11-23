@@ -26,15 +26,21 @@
       fbq('init', '1364613781362937');
       fbq('track', 'PageView');
     </script>
-    <noscript>
-      <img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=1364613781362937&ev=PageView&noscript=1"/>
-    </noscript>
     <!-- End Meta Pixel Base -->
   </head>
 
   <body>
+    <!-- Meta Pixel Noscript -->
+    <noscript>
+      <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1364613781362937&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Meta Pixel Noscript -->
+    
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Hidden video for preload -->
+    <video aria-hidden="true" tabindex="-1" src="https://cdn.converteai.net/1.mp4" playsinline style="position: fixed; top: -1px; left: -1px; width: 1px; height: 1px; opacity: 0; pointer-events: none; z-index: 9; background-color: transparent; display: block; object-fit: fill;"></video>
   </body>
 </html>
